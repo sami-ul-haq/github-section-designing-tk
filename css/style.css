@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+body{
+    background-color: #2B3137;
+}
+
+#first-section{
+    display: flex;
+    background: url(/images/simple-codelines.svg);
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 64px 0px;
+}
+
+.left-item{
+    margin: 0px 24px;
+    width: 40vw;
+}
+
+.left-item h1{
+    font-size: 4em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.left-item p{
+    color:#AAADAF;
+    font-size: 20px;
+    text-align: left;
+}
+
+.left-item p a{
+    color: white;
+}
+
+.right-item{
+    margin: 0px 24px;
+}
+
+
+/* Form */
+form{
+    background-color:white ;
+    display: inline-block;
+    padding: 24px;
+    border-radius: 5px;
+    width: 30vw;
+    margin: 0px 24px;
+}
+
+form p{
+    text-align: left;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+
+form label{
+    display: block;
+    text-align: left;
+    margin-top: 1.3em;
+    margin-bottom: 5px;
+}
+
+form input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #4B91E1;
+}
+
+button{
+    color: white;
+    padding: 20px 32px;
+    font-size: 15px;
+    background-color: #2EBC4F;
+    margin: 16px 0px;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover{
+    background-color: #28A745;
+}
+
+.btn{
+    text-align: center;
+}
