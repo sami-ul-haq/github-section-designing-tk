@@ -12,7 +12,7 @@ body{
 
 #first-section{
     display: flex;
-    background: url(/images/simple-codelines.svg);
+    background: url(.../images/simple-codelines.svg);
     justify-content: space-evenly;
     align-items: center;
     padding: 64px 0px;
